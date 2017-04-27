@@ -2,14 +2,14 @@
 ## 1 es6常用语法及等效的普通js语法
 
 ### 1.1 变量声明
-js里面只有var，没有变量和常量的概念，而es6里面const是定义变量，let是定义常量
+js里面只有var，没有变量和常量的概念，而es6里面let是定义变量，const是定义常量
 	
 	//变量，会随时改变
 	var items = [];
-	const items = [];
+	let items = [];
 	//常量，不允许改变
 	var api_host = "http://api.baidu.com";
-	let api_host = "http://api.baidu.com";
+	const api_host = "http://api.baidu.com";
 
 es6新增加了模板字符串的定义，支撑字符串中加入变量和换行
 
